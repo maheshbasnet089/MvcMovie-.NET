@@ -5,7 +5,8 @@ namespace MvcMovie.Controllers;
 
 public class HelloWorldController : Controller
 {
-    readonly string name = "Manish";
+    readonly string name = "Manish"; 
+    //test
    // get : /HelloWorld/ 
    public IActionResult Index()
     {
